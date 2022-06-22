@@ -1,11 +1,22 @@
 {
-  "name": "package-name-test",
+  "name": "enpeem-package-publish-test",
   "version": "1.0.0",
   "description": "Test desciption",
   "main": "index.js",
+  "repository": {
+    "url": "git+https://github.com/Robbo23/test-package-publish.git",
+    "type": "git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Robbo23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robbo23/test-package-publish/issues"
+  },
+  "homepage": "https://github.com/Robbo23/test-package-publish#readme",
+  "keywords": [
+    "test"
+  ]
 }
