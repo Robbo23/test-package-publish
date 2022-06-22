@@ -1,9 +1,12 @@
-function oneFunction() {
+export function oneFunction() {
   console.log("siemano, testowa paczka");
 }
 
-function twoFunction(t) {
-  console.log("tutaj jest jakas opcja ", t);
+export function twoFunction(t) {
+  return (
+    "\n===========================================\n\n" +
+    "Parametr funkcji przyjmuje: " +
+    t +
+    "\n\n===========================================\n\n"
+  );
 }
-
-module.exports = { oneFunction, twoFunction };
