@@ -1,5 +1,6 @@
 export function oneFunction() {
   console.log("siemano, testowa paczka");
+  return "pierwsza funkcja";
 }
 
 export function twoFunction(t) {
