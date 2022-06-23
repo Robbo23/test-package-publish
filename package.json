@@ -1,14 +1,23 @@
 {
   "name": "enpeem-package-publish-test",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Test desciption",
   "type": "module",
+  "module": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "src/func1.js",
+    "src/func2.js",
+    ".gitignore"
+  ],
   "main": "index.js",
   "repository": {
     "url": "git+https://github.com/Robbo23/test-package-publish.git",
     "type": "git"
   },
   "scripts": {
+    "postpack": "npm bin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Robbo23",
@@ -19,5 +28,8 @@
   "homepage": "https://github.com/Robbo23/test-package-publish#readme",
   "keywords": [
     "test"
-  ]
+  ],
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
 }
